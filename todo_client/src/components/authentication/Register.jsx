@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import api from '../../api.js';
-import "./register.css";
 import LoadingScreen from "../common_utilities/LoadingScreen.jsx";
 
 function Register() {
