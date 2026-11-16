@@ -8,7 +8,7 @@ const app = express()
 
 app.use(express.json())
 
-app.use(cors({origin : true}))
+app.use(cors({origin : ['https://todo-app-snowy-ten-37.vercel.app/']}))
 
 const port = process.env.PORT || 3000
 
